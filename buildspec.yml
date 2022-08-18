@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing nodejs..."
+      - curl -fsSL https://deb.nodesource.com/setup_current.x |  bash -
+      - apt install -y nodejs
+  pre_build:
+    commands:
+      - echo "Installing nodejs dependencies"
+      - pwd
+      - cd frontend
+      - pwd
+      - npm install
+  build:
+    commands:
+      - echo "Testing..."
+      - pwd
+        #- CI=true npm test
+      - echo "Building..."
+      - CI=true npm run build
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: frontend/build
