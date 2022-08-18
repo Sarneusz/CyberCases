@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07a67a4f-804f-42b5-bd97-0c7c96b60843" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/avatars/bot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/avatars/user.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Main/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/chats/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/chats/chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/utils/karol.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mateu/OneDrive/Pulpit/react-learn",
+    "last_opened_file_path": "C:/Users/mateu/OneDrive/Pulpit/REACT/Algorium",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "C:\\Users\\mateu\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.3345.108\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
   }
@@ -50,6 +56,8 @@
       <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\Algorium\frontend\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\Algorium\frontend\src\components\avatars" />
+      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\Algorium\frontend\src\components\chats" />
       <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\Algorium\frontend\src\components" />
     </key>
   </component>
@@ -76,6 +84,7 @@
       <workItem from="1660745395206" duration="12696000" />
       <workItem from="1660815298004" duration="7579000" />
       <workItem from="1660836339862" duration="600000" />
+      <workItem from="1660840197512" duration="2376000" />
     </task>
     <servers />
   </component>

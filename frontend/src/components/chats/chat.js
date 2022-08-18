@@ -1,8 +1,12 @@
 import React, {Component} from 'react';
 import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
+import useravatar from '../avatars/user.jpg';
+import botavatar from '../avatars/bot.jpg';
 
 //https://lucasbassetti.com.br/react-simple-chatbot/#/docs/chatbot
+
+//wyglad czatu
 
 const theme = {
     background: '#f5f8fb',
@@ -15,6 +19,8 @@ const theme = {
     userBubbleColor: '#fff',
     userFontColor: '#4a4a4a',
 };
+
+//opcje do wyboru
 
 const options = [
     { value: 1, label: 'Czy pobierał Pan jakieś oprogramowanie?', trigger: '3' },
@@ -77,7 +83,11 @@ const steps = [
     {
         id: '4',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}> Fakt, że Pan Marek nie pobierał żadnego oprogramowania nie jest jednoznaczne z tym, że złośliwe oprogramowanie nie znalazło się na komputerze. Być może oprogramowanie pobrało się samoczynnie, bez wiedzy Pana Marka, lub też rozprzestrzeniło się w sieci z innego komputera.</span>
+            </div>
+
         ),
         trigger: '2',
     },
@@ -89,7 +99,10 @@ const steps = [
     {
         id: '6',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -101,7 +114,10 @@ const steps = [
     {
         id: '8',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -113,7 +129,10 @@ const steps = [
     {
         id: '10',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -125,7 +144,10 @@ const steps = [
     {
         id: '12',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -137,7 +159,10 @@ const steps = [
     {
         id: '14',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -149,7 +174,10 @@ const steps = [
     {
         id: '16',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -161,7 +189,10 @@ const steps = [
     {
         id: '18',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -173,7 +204,10 @@ const steps = [
     {
         id: '20',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -185,7 +219,10 @@ const steps = [
     {
         id: '22',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -197,7 +234,10 @@ const steps = [
     {
         id: '24',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -209,7 +249,10 @@ const steps = [
     {
         id: '26',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -221,7 +264,10 @@ const steps = [
     {
         id: '28',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -233,7 +279,10 @@ const steps = [
     {
         id: '30',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -245,7 +294,10 @@ const steps = [
     {
         id: '32',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -257,7 +309,10 @@ const steps = [
     {
         id: '34',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -269,7 +324,10 @@ const steps = [
     {
         id: '36',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -281,7 +339,10 @@ const steps = [
     {
         id: '38',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -293,7 +354,10 @@ const steps = [
     {
         id: '40',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -305,7 +369,10 @@ const steps = [
     {
         id: '42',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -317,7 +384,10 @@ const steps = [
     {
         id: '44',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -329,7 +399,10 @@ const steps = [
     {
         id: '46',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -341,7 +414,10 @@ const steps = [
     {
         id: '48',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -353,7 +429,10 @@ const steps = [
     {
         id: '50',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -365,7 +444,10 @@ const steps = [
     {
         id: '52',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -377,7 +459,10 @@ const steps = [
     {
         id: '54',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -389,7 +474,10 @@ const steps = [
     {
         id: '56',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -401,7 +489,10 @@ const steps = [
     {
         id: '58',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -413,7 +504,10 @@ const steps = [
     {
         id: '60',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -425,7 +519,10 @@ const steps = [
     {
         id: '62',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -437,7 +534,10 @@ const steps = [
     {
         id: '64',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -449,7 +549,10 @@ const steps = [
     {
         id: '66',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -461,7 +564,10 @@ const steps = [
     {
         id: '68',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -473,7 +579,10 @@ const steps = [
     {
         id: '70',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -485,7 +594,10 @@ const steps = [
     {
         id: '72',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -497,7 +609,10 @@ const steps = [
     {
         id: '74',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -509,7 +624,10 @@ const steps = [
     {
         id: '76',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -521,7 +639,10 @@ const steps = [
     {
         id: '78',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -533,7 +654,10 @@ const steps = [
     {
         id: '80',
         component: (
-            <div> PODPOWIEDZ </div>
+            <div>
+                <span style={{fontSize: '20px'}}>&#128528;</span>
+                <span style={{fontSize: '15px'}}>         </span>
+            </div>
         ),
         trigger: '2',
     },
@@ -561,8 +685,9 @@ class Chat extends Component {
                 // hideSubmitButton={true}
                 placeholder='Twoja wiadomość..'
                 steps={steps}
+                botAvatar={useravatar}
+                userAvatar = {botavatar}
             />
-
                 </ThemeProvider>
             </div>
         );
