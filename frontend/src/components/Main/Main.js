@@ -31,12 +31,12 @@ export const Main = () => {
 		{
 			icon: <HelpIcon sx={icon_style}></HelpIcon>,
 			title: "Zadawaj pytania",
-			desc: "Aby móc pomóc swoim klientom, musisz wiedzieć z jakim problemem się zmagają. Możesz zadać im aż 40 różnych pytań, na podstawie których wydedukujesz odpowiedź. To, czy idziesz w dobrym kierunku, sygnalizowane będzie odpowiednim kolorem buźki.",
+			desc: "Aby móc pomóc swoim klientom, musisz wiedzieć z jakim problemem się zmagają. Możesz zadać im aż 40 różnych pytań, na podstawie których wydedukujesz odpowiedź. To, czy idziesz w dobrym kierunku, sygnalizowane będzie odpowiednią buźką.",
 		},
 		{
 			icon: <SchoolIcon sx={icon_style}></SchoolIcon>,
 			title: "Ucz się metodyką PBL",
-			desc: "Problem-Based Learning jest jedną z metod kształcenia, polegającą na zmaganiu się z konkretnymi sytuacjami problemowymi, przy jednoczesnym poszerzaniu i zdobywaniu nowej wiedzy."
+			desc: "Problem-Based Learning jest efektywną metodą kształcenia, polegającą na zmaganiu się z konkretnymi sytuacjami problemowymi, przy jednoczesnym poszerzaniu i zdobywaniu nowej wiedzy."
 		},
 	];
 
