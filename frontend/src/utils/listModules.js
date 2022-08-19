@@ -1,4 +1,7 @@
 import { Avatar } from '@mui/material';
+import marek from '../components/avatars/mariusz.png';
+import wieslaw from '../components/avatars/wieslaw.png';
+import karol from '../components/avatars/karol.png';
 
 export const modules = [
 	{
@@ -11,11 +14,8 @@ export const modules = [
 		},
 		icon: (
 			<Avatar
-				sx={{ height: 100, width: 100 }}
-				style={{
-					fill: '#7d91e7',
-					// color: "black"
-				}}
+				sx={{ height: 200, width: 200 }}
+				src={marek}
 			/>
 		),
 		tag: 'Ransomware',
@@ -30,11 +30,8 @@ export const modules = [
 		},
 		icon: (
 			<Avatar
-				sx={{ height: 100, width: 100 }}
-				style={{
-					fill: '#7d91e7',
-					// color: "black"
-				}}
+				sx={{ height: 200, width: 200 }}
+				src={wieslaw}
 			/>
 		),
 		tag: 'Identity theft',
@@ -49,11 +46,8 @@ export const modules = [
 		},
 		icon: (
 			<Avatar
-				sx={{ height: 100, width: 100 }}
-				style={{
-					fill: '#7d91e7',
-					// color: "black"
-				}}
+				sx={{ height: 200, width: 200 }}
+				src={karol}
 			/>
 		),
 		tag: 'Phishing',

@@ -11,7 +11,9 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import AboutInfo from './components/Main/About';
-import Chat from "./components/chats/chat";
+import Marek from "./components/chats/marek";
+import EndCallback from "./components/chats/chat";
+
 
 const App = () => {
 
@@ -77,7 +79,8 @@ const App = () => {
 											// 	/>
 											// }
 											element={
-												<Chat/>
+												// <Marek/>
+												<EndCallback/>
 											}
 										/>
 									);
