@@ -12,7 +12,7 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import AboutInfo from './components/Main/About';
 import Marek from "./components/chats/marek";
-import EndCallback from "./components/chats/chat";
+// import EndCallback from "./components/chats/testy";
 
 
 const App = () => {
@@ -79,8 +79,8 @@ const App = () => {
 											// 	/>
 											// }
 											element={
-												// <Marek/>
-												<EndCallback/>
+												<Marek/>
+												// <EndCallback/>
 											}
 										/>
 									);

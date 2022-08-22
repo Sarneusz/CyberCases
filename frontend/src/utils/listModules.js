@@ -18,7 +18,7 @@ export const modules = [
 				src={marek}
 			/>
 		),
-		tag: 'Ransomware',
+		tag: 'Biznesmen',
 	},
 	{
 		to: 'merge-sort',
@@ -34,7 +34,7 @@ export const modules = [
 				src={wieslaw}
 			/>
 		),
-		tag: 'Identity theft',
+		tag: 'Sekretarz',
 	},
 	{
 		to: 'selection-sort',
@@ -50,7 +50,7 @@ export const modules = [
 				src={karol}
 			/>
 		),
-		tag: 'Phishing',
+		tag: 'Student',
 	},
 	// TODO -> Dopasować propsy ponizszych modułów tak jak są wyżej zrobione bubble-sort i merge-sort
 	// {
