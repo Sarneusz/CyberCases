@@ -26,8 +26,8 @@ const CardComponent = ({ module, disabled }) => {
 							color='text.secondary'
 							align='center'
 						>
-
-							{/*{module.tag}*/}
+							{/*opis*/}
+							{module.tag}
 						</Typography>
 					</CardContent>
 				</CardActionArea>

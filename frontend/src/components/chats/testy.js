@@ -13,7 +13,7 @@ class EndCallback extends Component {
         console.log("print values: ")
         console.log(values);
         alert(`Chat handleEnd callback! Number: ${values[0]}`);
-        //
+        //``
         // console.log("Clear...")
         // values[0]=null;
         // console.log("print values: ")
