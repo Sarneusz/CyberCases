@@ -5,6 +5,7 @@ import karol from '../components/avatars/karol.png';
 
 export const modules = [
 	{
+		disabled: false,
 		to: 'bubble-sort',
 		algoProps: {
 			title: 'Pan Marek',
@@ -21,6 +22,7 @@ export const modules = [
 		tag: 'Biznesmen',
 	},
 	{
+		disabled: false,
 		to: 'merge-sort',
 		algoProps: {
 			title: 'Pan Wiesław',
@@ -37,6 +39,7 @@ export const modules = [
 		tag: 'Sekretarz',
 	},
 	{
+		disabled: false,
 		to: 'selection-sort',
 		algoProps: {
 			title: 'Pan Karol',
@@ -52,23 +55,4 @@ export const modules = [
 		),
 		tag: 'Student',
 	},
-	// TODO -> Dopasować propsy ponizszych modułów tak jak są wyżej zrobione bubble-sort i merge-sort
-	// {
-	// 	disabled: true,
-	// 	to: 'bfs',
-	// 	algoProps: {
-	// 		title: 'Przeszukiwanie wszerz',
-	// 		description: 'Polega na odwiedzeniu wszystkich osiągalnych wierzchołków z danego wierzchołka.',
-	// 		type: 'bfs',
-	// 	},
-	// 	icon: (
-	// 		<SchemaOutlinedIcon
-	// 			sx={{ height: 100, width: 100 }}
-	// 			style={{
-	// 				fill: '#7d91e7',
-	// 			}}
-	// 		/>
-	// 	),
-	// 	tag: 'Algorytmy grafowe',
-	// },
 ];

@@ -9,7 +9,7 @@ import { modules } from '../utils/listModules';
 const CardComponent = ({ module, disabled }) => {
 	return (
 		<Grid item xs={3} md={2.4} lg={2}>
-			<Card sx={{ maxWidth: 345, opacity: disabled ? '0.5' : '1'}}>
+			<Card sx={{ maxWidth: 345, opacity: disabled ? '0.5' : '1', marginTop: '150px'}}>
 				<CardActionArea sx={{display: 'flex', flexDirection:'column', jusitfyItems: 'center', pt: '1.5em'}} component={Link} to={module.to} disabled={disabled}>
 					{module.icon}
 					<CardContent>
@@ -32,6 +32,7 @@ const CardComponent = ({ module, disabled }) => {
 					</CardContent>
 				</CardActionArea>
 			</Card>
+					{/*...*/}
 		</Grid>
 	);
 };

@@ -12,9 +12,10 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import AboutInfo from './components/Main/About';
 
-import Marek from "./components/chats/marek";
-import Wieslaw from "./components/chats/wieslaw";
+import Marek from './components/chats/marek';
+import Wieslaw from './components/chats/wieslaw';
 import Karol from "./components/chats/karol";
+import EndCallback from "./components/chats/testy";
 
 const App = () => {
 
@@ -80,9 +81,10 @@ const App = () => {
 											// 	/>
 											// }
 											element={
-												<Marek/>
+												// <Marek/>
 												// <Wieslaw/>
 												// <Karol/>
+												<EndCallback/>
 											}
 										/>
 									);

@@ -27,6 +27,9 @@ function AuthorsList() {
 
     return (
         <div style={{ textAlign: 'center', justifyContent: "center" }}>
+
+            {/*Dos/DDoS -Ataki typu DoS (z ang. Denial of Service) oraz DDoS (z ang. Distributed Denial of Service) to jedna z najpopularniejszych broni w rękach cyberprzestępców. Główna różnica między atakami DoS i DDoS polega na tym, że ten pierwszy jest atakiem, do którego wykorzystywany jest jeden komputer, podczas gdy drugi obejmuje wiele komputerów atakujących jeden system. Komputery oraz systemy biorące udział w ataku wysyłają do atakowanego zapytania, na które atakowany stara się odpowiadać. Bardzo duża ilość zapytań doprowadza do wykorzystania wszystkich dostępnych zasobów atakowanej sieci, a w efekcie do przerwy w działaniu lub nawet zawieszenia atakowanego systemu.*/}
+
             <Typography variant="h4" gutterBottom sx={h_style} component="div">
                 O autorze
             </Typography>
