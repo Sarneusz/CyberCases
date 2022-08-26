@@ -628,4 +628,5 @@ export const steps = [
         hideInput: true,
         end: true,
     }
-]
+];
+

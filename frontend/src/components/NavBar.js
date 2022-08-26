@@ -87,7 +87,7 @@ export const NavBar = ({ toggleDark, setToggleDark }) => {
 								<img
 									alt=''
 									src={logo}
-									width={'40px'}
+									width={'30px'}
 									style={{ margin: 'auto 10px' }}
 								></img>
 								<span>CyberCases</span>

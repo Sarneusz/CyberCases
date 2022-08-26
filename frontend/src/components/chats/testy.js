@@ -13,16 +13,15 @@ class EndCallback extends Component {
         console.log("print values: ")
         console.log(values);
         alert(`Chat handleEnd callback! Number: ${values[0]}`);
-        //``
-        // console.log("Clear...")
-        // values[0]=null;
-        // console.log("print values: ")
+
     }
 
-    mojaFunkcja({ values }){
-        console.log("TEST")
-        // values[0].label='';
-        // alert(`Chat handleEnd callback! Number: ${values[0]}`)
+    mojaFunkcja({ previousValue, steps }){
+        // alert("Moja funkcja!!");
+        console.log(previousValue);
+        console.log(steps);
+        // alert(steps[1].options[1].value[0]);
+
 
     }
 
