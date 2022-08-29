@@ -4,7 +4,6 @@ import { NavBar } from './components/NavBar';
 import { Main } from './components/Main/Main';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ModulesList } from './components/ModulesList';
-import { modules } from './utils/listModules';
 import '@fontsource/roboto';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -15,7 +14,7 @@ import AboutInfo from './components/Main/About';
 import Marek from './components/chats/marek';
 import Wieslaw from './components/chats/wieslaw';
 import Karol from "./components/chats/karol";
-import EndCallback from "./components/chats/testy";
+// import EndCallback from "./components/chats/testy";
 
 const App = () => {
 
@@ -69,27 +68,29 @@ const App = () => {
 							<Route path='/strona-glowna' element={<Main />} />
 							<Route path='/moduly' element={<ModulesList />} />
 
-							{modules.map((module) => {
-								if (module.algoProps.type) {
-									return (
-										<Route
-											key={module.to}
-											path={`/moduly/${module.to}`}
-											// element={
-											// 	<AlgoPreview
-											// 		{...module.algoProps}
-											// 	/>
-											// }
-											element={
-												// <Marek/>
-												// <Wieslaw/>
-												// <Karol/>
-												<EndCallback/>
-											}
-										/>
-									);
-								} else return <></>;
-							})}
+							<Route
+								path={`/moduly/marek`}
+
+								element={
+									<Marek/>
+								}
+							/>
+
+							<Route
+								path={`/moduly/wieslaw`}
+
+								element={
+									<Wieslaw/>
+								}
+							/>
+
+							<Route
+								path={`/moduly/karol`}
+
+								element={
+									<Karol/>
+								}
+							/>
 
 							<Route path='/info' element={<AboutInfo />}/>
 						</Route>
