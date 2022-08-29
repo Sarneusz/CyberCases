@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07a67a4f-804f-42b5-bd97-0c7c96b60843" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/chats/marek.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/chats/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/chats/chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/chats/chat2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/listModules.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/listModules.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,33 +27,38 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CWVOBLBvhxmIgZ5eHNbc5K0j5i" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mateu/OneDrive/Pulpit/Algorium",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\mateu\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.3739.57\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mateu/OneDrive/Pulpit/REACT/CyberCases/frontend/src&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\mateu\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.3739.57\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\CyberCases\frontend\src" />
+      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\CyberCases\frontend" />
       <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\Algorium\frontend\src\utils" />
       <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\Algorium\frontend\src" />
       <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\Algorium\frontend" />
-      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\Algorium\frontend\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\Algorium\frontend\src\components\avatars" />
-      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\Algorium\frontend\src\utils" />
-      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\Algorium\frontend\src\components\chats" />
-      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\Algorium\frontend\src\components" />
+      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\CyberCases\frontend\src\components" />
+      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\CyberCases\frontend\src" />
+      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\CyberCases\frontend" />
+      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\CyberCases\frontend\public" />
+      <recent name="C:\Users\mateu\OneDrive\Pulpit\REACT\CyberCases\frontend\src\components\chats" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,6 +87,13 @@
       <workItem from="1660840197512" duration="2820000" />
       <workItem from="1660846481486" duration="3406000" />
       <workItem from="1660919192699" duration="38000" />
+      <workItem from="1661176916910" duration="9124000" />
+      <workItem from="1661204084600" duration="317000" />
+      <workItem from="1661204436262" duration="2312000" />
+      <workItem from="1661258628257" duration="9655000" />
+      <workItem from="1661429848245" duration="11839000" />
+      <workItem from="1661711592434" duration="3844000" />
+      <workItem from="1661760663746" duration="1740000" />
     </task>
     <servers />
   </component>
