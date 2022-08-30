@@ -53,7 +53,7 @@ export const Main = () => {
 				Funkcjonalności
 			</Typography>
 
-			<Grid container item spacing={3} style={{ marginBottom: "10px" }} justifyContent="center">
+			<Grid container item spacing={3} style={{ marginBottom: "10px"}} justifyContent="center">
 				{funcs.map((it) => (
 					<Grid item xs={3}>
 						<Item>

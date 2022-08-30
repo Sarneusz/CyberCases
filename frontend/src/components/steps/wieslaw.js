@@ -623,7 +623,7 @@ export const steps = [
     {
         id: '86',
         component: (
-            <span style={{fontSize: '15px'}}> Gratuljace, jest to poprawna odpowiedź! Pan Wiesław jest sekretarzem mało obeznanym w technologii. W związku z jego profesją, każdego dnia pobiera dużo załączników do maili oraz odwiedza mnóstwo stron internetowych. Przestępca podesłał zainfekowany załącznik Panu Wiesławowi, który ten nieopatrznie otworzył. W tym momencie złośliwe oprogramowanie zainstalowało się na komputerze, a przestępca pozyskał wrażliwe dane Pana Wiesława, na które następnie zaciągnął pożyczkę.</span>
+            <span style={{fontSize: '15px', color: "green"}}> Gratuljace, jest to poprawna odpowiedź! Pan Wiesław jest sekretarzem mało obeznanym w technologii. W związku z jego profesją, każdego dnia pobiera dużo załączników do maili oraz odwiedza mnóstwo stron internetowych. Przestępca podesłał zainfekowany załącznik Panu Wiesławowi, który ten nieopatrznie otworzył. W tym momencie złośliwe oprogramowanie zainstalowało się na komputerze, a przestępca pozyskał wrażliwe dane Pana Wiesława, na które następnie zaciągnął pożyczkę.</span>
         ),
         hideInput: true,
         end: true,
