@@ -58,7 +58,6 @@ const App = () => {
 						<Route
 							path='/'
 							element={
-							//przycisk do darkmode
 								<NavBar
 									toggleDark={toggleDark}
 									setToggleDark={setToggleDark}
@@ -70,7 +69,6 @@ const App = () => {
 
 							<Route
 								path={`/moduly/marek`}
-
 								element={
 									<Marek/>
 								}
@@ -78,7 +76,6 @@ const App = () => {
 
 							<Route
 								path={`/moduly/wieslaw`}
-
 								element={
 									<Wieslaw/>
 								}
@@ -86,7 +83,6 @@ const App = () => {
 
 							<Route
 								path={`/moduly/karol`}
-
 								element={
 									<Karol/>
 								}
