@@ -623,7 +623,7 @@ export const steps = [
     {
         id: '86',
         component: (
-            <span style={{fontSize: '15px'}}> Gratuljace, jest to poprawna odpowiedź! Pan Karol jest studentem biologii. Przeglądając wiadomości na poczcie email, dostrzegł wiadomość nakazującą zmianę hasła do poczty email. Niewiele myśląc Pan Karol wszedł w link wysłany we wiadomości, a następnie nie zwracając uwagi na autentyczność serwisu wprowadził dane do zmiany hasła. W ten sposób atakujący, który kontrolował stronę pozyskał dane, i wykradł dostęp do poczty email Karola.</span>
+            <span style={{fontSize: '15px', color: "green"}}> Gratuljace, jest to poprawna odpowiedź! Pan Karol jest studentem biologii. Przeglądając wiadomości na poczcie email, dostrzegł wiadomość nakazującą zmianę hasła do poczty email. Niewiele myśląc Pan Karol wszedł w link wysłany we wiadomości, a następnie nie zwracając uwagi na autentyczność serwisu wprowadził dane do zmiany hasła. W ten sposób atakujący, który kontrolował stronę pozyskał dane, i wykradł dostęp do poczty email Karola.</span>
         ),
         hideInput: true,
         end: true,

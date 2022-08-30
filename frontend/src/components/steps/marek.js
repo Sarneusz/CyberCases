@@ -127,7 +127,7 @@ export const steps = [
         component: (
             <div>
                 <span style={{fontSize: '20px'}}>&#128578;</span>
-                <span style={{fontSize: '15px'}}>Pan Marek prawdopodobnie utracił dostęp do plików na komputerze i nie jest w stanie się na nim zalogować. Trzeba więc zadać sobie pytanie, w jaki sposób do tego doszło, aby móc mu pomóc.</span>
+                <span style={{fontSize: '15px'}}> Pan Marek prawdopodobnie utracił dostęp do plików na komputerze i nie jest w stanie się na nim zalogować. Trzeba więc zadać sobie pytanie, w jaki sposób do tego doszło, aby móc mu pomóc.</span>
             </div>
         ),
         trigger: '2',
@@ -623,7 +623,7 @@ export const steps = [
     {
         id: '86',
         component: (
-            <span style={{fontSize: '15px'}}> Gratuljace, jest to poprawna odpowiedź! Pan Marek jest kluczowym pracownikiem dużej firmy farmakologicznej. Przestępca chcąc wykraść wrażliwe dane z firmy, w której Pracuje Pan Marek, postanowił podrzucić mu złośliwie zaprogramowany pendrive. Pan Marek bez większego zastanowienia podłączył go do swojego komputera, co skutkowało zaszyfrowaniem i wykradnięciem cennych danych. Dodatkowo oprogramowanie rozprzestrzeniło się w sieci firmy na inne komputery. </span>
+            <span style={{fontSize: '15px', color: "green"}}> Gratuljace, jest to poprawna odpowiedź! Pan Marek jest kluczowym pracownikiem dużej firmy farmakologicznej. Przestępca chcąc wykraść wrażliwe dane z firmy, w której Pracuje Pan Marek, postanowił podrzucić mu złośliwie zaprogramowany pendrive. Pan Marek bez większego zastanowienia podłączył go do swojego komputera, co skutkowało zaszyfrowaniem i wykradnięciem cennych danych. Dodatkowo oprogramowanie rozprzestrzeniło się w sieci firmy na inne komputery. </span>
         ),
         hideInput: true,
         end: true,
