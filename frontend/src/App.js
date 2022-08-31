@@ -10,17 +10,15 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import AboutInfo from './components/Main/About';
-
 import Marek from './components/chats/marek';
 import Wieslaw from './components/chats/wieslaw';
 import Karol from "./components/chats/karol";
-// import EndCallback from "./components/chats/testy";
 
 const App = () => {
 
 	const [toggleDark, setToggleDark] = React.useState(false);
 
-	const algoriumTheme = createTheme({
+	const cybercasesTheme = createTheme({
 		palette: {
 			mode: toggleDark ? 'dark' : 'light',
 			type: toggleDark ? 'dark' : 'light',
@@ -37,22 +35,21 @@ const App = () => {
 		},
 	});
 
-	if (algoriumTheme.palette.mode === 'light') {
-		algoriumTheme.palette.background = {
+	if (cybercasesTheme.palette.mode === 'light') {
+		cybercasesTheme.palette.background = {
 			default: '#fff',
 			paper: '#f0f0f0',
 		};
 	} else {
-		algoriumTheme.palette.background = {
+		cybercasesTheme.palette.background = {
 			default: '#18191a',
 			paper: '#18191a',
 		};
 	}
 
 	return (
-		<div style={{ background: algoriumTheme.palette.background.default }}>
-
-			<ThemeProvider theme={algoriumTheme}>
+		<div style={{ background: cybercasesTheme.palette.background.default }}>
+			<ThemeProvider theme={cybercasesTheme}>
 				<Router>
 					<Routes>
 						<Route
@@ -62,33 +59,13 @@ const App = () => {
 									toggleDark={toggleDark}
 									setToggleDark={setToggleDark}
 								/>
-							}
-						>
-							<Route path='/strona-glowna' element={<Main />} />
-							<Route path='/moduly' element={<ModulesList />} />
-
-							<Route
-								path={`/moduly/marek`}
-								element={
-									<Marek/>
-								}
-							/>
-
-							<Route
-								path={`/moduly/wieslaw`}
-								element={
-									<Wieslaw/>
-								}
-							/>
-
-							<Route
-								path={`/moduly/karol`}
-								element={
-									<Karol/>
-								}
-							/>
-
-							<Route path='/info' element={<AboutInfo />}/>
+							}>
+							<Route path={'/strona-glowna'} element={<Main />} />
+							<Route path={'/moduly'} element={<ModulesList />} />
+							<Route path={`/moduly/marek`} element={<Marek />} />
+							<Route path={`/moduly/wieslaw`} element={<Wieslaw />} />
+							<Route path={`/moduly/karol`} element={<Karol/>} />
+							<Route path={'/info'} element={<AboutInfo />}/>
 						</Route>
 					</Routes>
 				</Router>

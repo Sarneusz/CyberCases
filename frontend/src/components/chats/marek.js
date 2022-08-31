@@ -6,8 +6,6 @@ import userAvatar from '../avatars/mariusz.png';
 import {theme} from '../../utils';
 import {steps} from '../steps/marek';
 
-//https://lucasbassetti.com.br/react-simple-chatbot/#/docs/chatbot
-
 class Marek extends Component {
 
     render() {
@@ -18,7 +16,7 @@ class Marek extends Component {
                         width='1500px'
                         height='800px'
                         headerTitle='Marek'
-                        cache={false}
+                        cache={true}
                         placeholder='Twoja wiadomość..'
                         steps={steps}
                         botAvatar={userAvatar}
