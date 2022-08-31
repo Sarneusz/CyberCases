@@ -6,10 +6,6 @@ import userAvatar from '../avatars/karol.png';
 import {theme} from '../../utils';
 import {steps} from '../steps/karol';
 
-//https://lucasbassetti.com.br/react-simple-chatbot/#/docs/chatbot
-
-//wyglad czatu
-
 class Karol extends Component {
 
     render() {

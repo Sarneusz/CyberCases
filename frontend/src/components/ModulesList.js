@@ -26,13 +26,11 @@ const CardComponent = ({ module, disabled }) => {
 							color='text.secondary'
 							align='center'
 						>
-							{/*opis*/}
 							{module.tag}
 						</Typography>
 					</CardContent>
 				</CardActionArea>
 			</Card>
-					{/*...*/}
 		</Grid>
 	);
 };

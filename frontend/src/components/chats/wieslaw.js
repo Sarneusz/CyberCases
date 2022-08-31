@@ -6,8 +6,6 @@ import userAvatar from '../avatars/wieslaw.png';
 import {theme} from '../../utils';
 import {steps} from '../steps/wieslaw';
 
-//https://lucasbassetti.com.br/react-simple-chatbot/#/docs/chatbot
-
 class Wieslaw extends Component {
 
     render() {

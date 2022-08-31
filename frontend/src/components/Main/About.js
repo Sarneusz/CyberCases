@@ -9,12 +9,9 @@ import Typography from '@mui/material/Typography';
 import { useTheme } from '@emotion/react';
 import { GitHub } from '@mui/icons-material';
 import { Button } from '@mui/material';
-
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
-
-//zakladka informacje
 
 function AuthorsList() {
     const auth = [
