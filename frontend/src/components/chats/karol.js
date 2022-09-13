@@ -22,6 +22,7 @@ class Karol extends Component {
                         botAvatar={userAvatar}
                         userAvatar = {botAvatar}
                         userDelay={100}
+
                     />
                 </ThemeProvider>
             </div>

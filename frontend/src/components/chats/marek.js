@@ -16,7 +16,7 @@ class Marek extends Component {
                         width='1500px'
                         height='800px'
                         headerTitle='Marek'
-                        cache={true}
+                        cache={false}
                         placeholder='Twoja wiadomość..'
                         steps={steps}
                         botAvatar={userAvatar}
