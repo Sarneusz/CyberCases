@@ -35,4 +35,4 @@
   </br>
   ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz9.png)
   </br>
-  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz10.png)
+  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz10.jpg)
