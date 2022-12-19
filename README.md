@@ -1,4 +1,6 @@
-<p align="center">
+
+
+<div align="center">
 
   ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz1.png)
   </br>
@@ -20,4 +22,4 @@
   </br>
   ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz10.jpg)
 
-</p>
+</div>
