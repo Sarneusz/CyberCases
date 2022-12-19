@@ -16,7 +16,7 @@
        (___)            (___)
 
 
-
+ ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz1.png)
 <p align="center">
   ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz1.png)
 </p>
