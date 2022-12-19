@@ -31,7 +31,7 @@
   </br>
   ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz7.png)
   </br>
-  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz8.png)
+  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz8.jpg)
   </br>
   ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz9.png)
   </br>
