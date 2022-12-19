@@ -10,9 +10,9 @@
   </br>
   ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz5.jpg)
   </br>
-  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz6.png)
+  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz5.jpg)
   </br>
-  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz7.jpg)
+  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz6.jpg)
   </br>
   ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz8.jpg)
   </br>
