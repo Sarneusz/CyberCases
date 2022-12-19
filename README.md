@@ -5,6 +5,8 @@
 3. Uruchom aplikację za pomocą polecenia `npm start` lub `yarn start`.
 4. Otwórz przeglądarkę internetową i przejdź do adresu `http://localhost:3000`, aby zobaczyć aplikację w działaniu.
 
+</br></br>
+
 
 <div align="center">
 
