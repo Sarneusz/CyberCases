@@ -1,3 +1,9 @@
+# Uruchomienie projektu w React.js
+
+1. Otwórz terminal i przejdź do katalogu z projektem.
+2. Upewnij się, że masz zainstalowane wszystkie zależności projektu. Możesz to zrobić, wpisując polecenie `npm install` lub `yarn install`.
+3. Uruchom aplikację za pomocą polecenia `npm start` lub `yarn start`.
+4. Otwórz przeglądarkę internetową i przejdź do adresu `http://localhost:3000`, aby zobaczyć aplikację w działaniu.
 
 
 <div align="center">
