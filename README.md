@@ -16,8 +16,14 @@
        (___)            (___)
 
 
-<!--  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz1.png) -->
-<div align="center">
+
   ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz1.png)
-  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz1.png)
-</div>
+  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz2.png)
+  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz3.png)
+  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz4.png)
+  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz5.png)
+  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz6.png)
+  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz7.png)
+  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz8.png)
+  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz9.png)
+  ![alt text](https://github.com/Sarneusz/CyberCases/blob/main/frontend/screenshots/Obraz10.png)
